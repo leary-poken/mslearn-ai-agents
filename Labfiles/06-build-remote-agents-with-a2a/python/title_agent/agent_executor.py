@@ -70,4 +70,3 @@ class FoundryAgentExecutor(AgentExecutor):
 
 def create_foundry_agent_executor(card: AgentCard) -> FoundryAgentExecutor:
     return FoundryAgentExecutor(card)
-
